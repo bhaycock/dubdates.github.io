@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DubDates - Dublin Event Discovery</title>
+    <style>
+        :root {
+            --primary-color: #1E3A8A;
+            --secondary-color: #581C87;
+            --text-color: #333;
+            --light-text: #666;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .nav {
+            background: #f8f9fa;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .nav a:hover {
+            color: var(--primary-color);
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 4rem;
+            color: var(--light-text);
+        }
+        
+        @media (max-width: 600px) {
+            .nav ul {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>DubDates</h1>
+        <p>Theatre and other Dublin Events</p>
+    </header>
+    
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <h2>Welcome to DubDates</h2>
+        <p>DubDates helps you discover and plan your entertainment in Dublin. Find theatre events and other date-worthy activities.</p>
+        
+        <h3>Features</h3>
+        <ul>
+            <li>Browse upcoming events in Dublin</li>
+            <li>Save your favorites</li>
+            <li>Track booked events</li>
+            <li>Add events to your calendar</li>
+            <li>Share events with friends</li>
+        </ul>
+        
+        <h3>Contact Us</h3>
+        <p>Have questions or feedback? Email us at: <a href="mailto:dubdates.app@gmail.com">dubdates.app@gmail.com</a></p>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 DubDates. All rights reserved.</p>
+    </footer>
+</body>
+</html>
